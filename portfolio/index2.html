@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marie Daake Designs</title>
+    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Marie Daake Designs</h1>
+    </header>
+    <nav>
+        <ul id="tabs">
+            <li class="buttons" id="about">About</li>
+            <li class="buttons" id="training">Training</li>
+            <li class="buttons" id="artwork">My Art</li>
+            <li class="buttons" id="websites">Websites</li>
+            <li class="buttons" id="other">Other</li>
+            <li class="buttons" id="contact">Contact</li>
+        </ul>
+        <div class="topBar"></div>
+    </nav>
+    <main>
+        <div class="content"></div>
+    </main>
+    <footer>
+        <p>&copy; 2023 - <span id="currentYear"></span> Marie Daake</p>
+    </footer>
+</body>
+</html>
+<script>
+    let currentDate = new Date();
+    let currentYear = currentDate.getFullYear();
+    let currentYearElement = document.getElementById("currentYear");
+    currentYearElement.textContent = currentYear;
+</script>
