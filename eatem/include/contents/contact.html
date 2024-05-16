@@ -1,0 +1,46 @@
+<h1>Get in Touch</h1>
+<form id="contactForm">
+    <div class="form">
+        <label for="name">Name:&nbsp;</label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+    </div>
+    <div class="form">
+        <label for="email">Email Address:&nbsp;</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+    </div>
+    <div class="form">
+        <label for="message">Message:&nbsp;</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+    <div class="form">
+        <input class="submit" type="submit" value="Submit">
+    </div>
+</form>
+
+<hr>
+
+<div class="elfsight-app-ab5dfac1-7504-4dbc-be7f-2ef9bd92b9b8" data-elfsight-app-lazy></div>
+
+
+
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent default form submission
+
+        // Get form data
+        var formData = new FormData(this);
+
+        // Construct email body
+        var emailBody = "Name: " + formData.get("name") + "\n";
+        emailBody += "Email: " + formData.get("email") + "\n";
+        emailBody += "Message: " + formData.get("message");
+
+        // Send email
+        var mailtoLink = "mailto:nobeef@eatem.se" +
+            "?subject=New Contact Form Submission" +
+            "&body=" + encodeURIComponent(emailBody);
+
+        // Open default email client
+        window.location.href = mailtoLink;
+    });
+</script>

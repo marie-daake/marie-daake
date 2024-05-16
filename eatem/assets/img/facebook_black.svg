@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="none"
+   version="1.1"
+   width="48"
+   height="47"
+   viewBox="0 0 48 47"
+   id="svg1"
+   sodipodi:docname="facebook_black.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="23.808511"
+     inkscape:cx="23.983021"
+     inkscape:cy="23.5"
+     inkscape:window-width="3440"
+     inkscape:window-height="1310"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <g
+     id="g1"
+     style="fill:#000000;fill-opacity:1">
+    <path
+       d="M34.2504,24.643L33.3416,30.4775L27.75,30.4775L27.75,47C28.0857,46.9481,28.4191,46.8893,28.75,46.8238C39.7296,44.6508,48,35.0983,48,23.643C48,10.5822,37.2581,0,24,0C10.7419,0,0,10.5822,0,23.643C0,35.0983,8.2704,44.6508,19.25,46.8238C19.5809,46.8893,19.9143,46.9481,20.25,47L20.25,30.4775L14.1532,30.4775L14.1532,23.643L20.25,23.643L20.25,18.4339C20.25,12.5089,23.8306,9.23602,29.3148,9.23602C31.9413,9.23602,34.6877,9.69744,34.6877,9.69744L34.6877,15.5129L31.6606,15.5129C28.68,15.5129,27.75,17.3357,27.75,19.2052L27.75,23.643L34.4061,23.643L34.2504,24.643ZM34.1979,31.4775L28.75,31.4775L28.75,45.8041Q32.1855,45.0967,35.2695,43.3865Q38.7842,41.4375,41.4253,38.4221Q44.082,35.3891,45.5161,31.6621Q47,27.8058,47,23.643Q47,19.0372,45.1955,14.8332Q43.4516,10.7703,40.27,7.63607Q37.0868,4.50028,32.9587,2.78065Q28.6841,1,24,1Q19.3159,1,15.0413,2.78065Q10.9131,4.50029,7.73001,7.63607Q4.54845,10.7703,2.80451,14.8332Q1,19.0371,1,23.643Q1,27.8058,2.48389,31.6621Q3.918,35.3891,6.57465,38.4221Q9.21584,41.4375,12.7305,43.3865Q15.8145,45.0967,19.25,45.8041L19.25,31.4775L13.1532,31.4775L13.1532,22.643L19.25,22.643L19.25,18.4339Q19.25,13.6364,22.0237,10.9011Q24.7261,8.23602,29.3148,8.23602Q32.0247,8.23602,34.8534,8.71127L35.6877,8.85144L35.6877,16.5129L31.6606,16.5129Q28.75,16.5129,28.75,19.2052L28.75,22.643L35.5739,22.643L34.1979,31.4775Z"
+       fill-rule="evenodd"
+       fill="#57B15E"
+       fill-opacity="1"
+       id="path1"
+       style="fill:#000000;fill-opacity:1" />
+  </g>
+</svg>
